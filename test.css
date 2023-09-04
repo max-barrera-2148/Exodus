@@ -208,9 +208,26 @@ line-height: 109%;
 letter-spacing: -0.407px;
 }
 
+.subheading{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 109%;
+    letter-spacing: -0.264px;
+    color: white;
+    }
+    
+    .heading{
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 109%;
+    letter-spacing: -0.407px;
+    color: white;
+    }
+
 .container{
     width: 100%;
     max-width: 1200px;
+    padding: 15px;
 }
 
 .d-flex{
@@ -247,6 +264,37 @@ letter-spacing: -0.407px;
     font-weight: 600;
     line-height: 109%;
     letter-spacing: -0.407px;
+    }
+
+
+    .raffle{
+        height: 147px;
+        background-color: rgba(217, 217, 217, 0.06);
+        border-radius: 8px;
+        border-width: 1px;
+        border-style: solid;
+        border-image: initial;
+        border-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .btn-div{
+        padding: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gradient-btn{
+        background:  linear-gradient(90deg, #9962B9 0%, #6F3ACB 50%, #6A00FF 100%);
+        color: white;
+        padding: 20px 80px;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 35px;
     }
     
 
