@@ -67,6 +67,7 @@ h3{
 }
 
 .h2w-section{
+
     color: white;
     text-align: center;
     overflow: hidden;
@@ -159,7 +160,8 @@ h3{
 }
 
 .input{
-    width: 479px;
+    width: 100%;
+    min-width: 479px;
     height: 54px;
     background-color: #d9d9d90f;
     border-radius: 37px;
@@ -167,6 +169,7 @@ h3{
     border-color: #ffffff;
     margin-top: 10px;
     margin-bottom: 10px;
+
 }
 
 form{
@@ -247,7 +250,7 @@ letter-spacing: -0.407px;
     display: flex;
     flex-wrap: wrap;
     color: white;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     text-align: left;
     justify-content: space-between;
 }
@@ -278,11 +281,13 @@ letter-spacing: -0.407px;
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
 
 
     .btn-div{
-        padding: 75px;
+        padding-top: 60px;
+        padding-bottom: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -305,4 +310,22 @@ letter-spacing: -0.407px;
         background-color: black;
         padding: 35px;
         color: #fff;
+    }
+
+    @media (max-width: 1118px) {
+        .three-equal{
+            justify-content: center;
+        }
+        .two-equal{
+            justify-content: center;
+        }
+        .col-2e{
+            padding: 20px 35px;
+        }
+        .h2w-item{
+            flex: 1 1 200px; /*  No stretching: */
+        }
+        .h2p-item{
+            flex: 1 1 500px; /*  No stretching: */
+        }
     }
