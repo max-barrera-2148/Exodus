@@ -9,6 +9,12 @@ body{
 }
 
 
+a{
+    color: white;
+    text-decoration: underline;
+}
+
+
 .hero-text h1{
    font-size: 128px;
    font-weight: 400;
@@ -64,6 +70,7 @@ h3{
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  width: 100%;
 }
 
 .h2w-section{
@@ -75,8 +82,8 @@ h3{
 }
 
 .h2w-item{
-    flex: 0 1 200px; /*  No stretching: */
-    margin: 0px 150px;
+    flex: 0 1 220px; /*  No stretching: */
+    margin: 0px 100px;
 }
 
 .h2w{
@@ -91,11 +98,12 @@ h3{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .h2p-item{
-    flex: 0 1 500px; /*  No stretching: */
-    margin: 0px 65px;
+    flex: 0 1 560px; /*  No stretching: */
+    margin: 0px 70px;
 }
 
 .list {
@@ -148,7 +156,7 @@ h3{
     }
 
 
-.label{
+label{
     text-shadow: 1px 4px 4px #00000047;
     font-weight: 300;
     color: #a09f9f;
@@ -159,9 +167,9 @@ h3{
     margin-left: 25px;
 }
 
-.input{
+input, textarea{
     width: 100%;
-    min-width: 479px;
+    color: white;
     height: 54px;
     background-color: #d9d9d90f;
     border-radius: 37px;
@@ -302,6 +310,15 @@ letter-spacing: -0.407px;
         border-radius: 35px;
     }
     
+
+    .hs-button{
+        background:  linear-gradient(90deg, #9962B9 0%, #6F3ACB 50%, #6A00FF 100%);
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 35px;
+        border: none;
+    }
 
     footer {
         display: flex;
