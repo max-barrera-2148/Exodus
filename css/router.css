@@ -93,9 +93,11 @@ h2{
 
 .primary-btn:hover{
     text-decoration: none;
+    color: white;
 }
 .secondary-btn:hover{
     text-decoration: none;
+    color: #CB0766 ;
 }
 
 .secondary-btn{
