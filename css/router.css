@@ -79,6 +79,8 @@ h2{
     font-size: 25px;
 }
 
+
+
 .primary-btn{
     background-color: #CB0766;
     color: white;
@@ -269,7 +271,8 @@ label{
     border: #CB0766 1px solid;
     width: 100%;
     max-width: 1229px;
-    height: 562px;
+    height: fit-content;
+    min-height: 562px;
     position: relative;
 }
 
@@ -332,4 +335,21 @@ label{
 
 .reward img{
     margin-right: 25px;
+}
+
+
+@media (max-width: 768px) {
+    .rewards-grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .magenta-outline2{
+        display: none;
+    }
+    .magenta-outline3{
+        display: none;
+    }
+    .magenta-outline4{
+        display: none;
+    }
 }
