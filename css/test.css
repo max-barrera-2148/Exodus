@@ -1,0 +1,362 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif !important;
+    background-color: #1f1b34 !important;
+}
+
+.exodus-symbol{
+    margin-top: 35px;
+}
+
+
+a{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.hero-text h1{
+   font-size: 128px;
+   font-weight: 400;
+   text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.28);
+   margin-top: 15px;
+   margin-bottom: 0px;
+}
+
+h2{
+    font-size: 96px;
+    font-weight: 400;
+    color: white;
+}
+
+h3{
+    font-weight: 300;
+    font-size: 24px;
+    text-shadow: 1px 4px 4px #00000047;
+}
+
+
+.hero-text p{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 58.5px */
+    letter-spacing: -0.429px;
+    margin-top: 40px;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(31, 27, 52, 0.7), rgba(31, 27, 52, 0.7)), url("img/hero.jpg");
+
+  /* Set a specific height */
+  height: 110vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image-router {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(31, 27, 52, 0.7), rgba(31, 27, 52, 0.7)), url("img/router-hero.png");
+  
+    /* Set a specific height */
+    height: 110vh;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100%;
+}
+
+.h2w-section{
+
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.h2w-item{
+    flex: 0 1 220px; /*  No stretching: */
+    margin: 0px 100px;
+}
+
+.h2w{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.h2p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.h2p-item{
+    flex: 0 1 560px; /*  No stretching: */
+    margin: 0px 70px;
+}
+
+.list {
+    color: #A09F9F;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.28);
+    font-size: 24px;
+    font-weight: 300;
+    margin-right: 40px;
+}
+
+
+.h2p-content{
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.h2p-content p{
+    color: #FFF;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.28);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%; /* 36px */
+    letter-spacing: -0.264px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.rectangle-2 {
+    position: absolute;
+    width: 653px;
+    height: 653px;
+    top: 135px;
+    left: 445px;
+    z-index: -2;
+    background-color: #23243766;
+    transform: rotate(45deg);
+  }
+
+.rectangle {
+    position: absolute;
+    width: 653px;
+    height: 653px;
+    z-index: -1;
+    top: 210px;
+    left: -150px;
+    background-color: #2324374c;
+    transform: rotate(45deg);
+    }
+
+
+label{
+    text-shadow: 1px 4px 4px #00000047;
+    font-weight: 300;
+    color: #a09f9f;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    margin-left: 25px;
+}
+
+input, textarea{
+    width: 100%;
+    color: white;
+    height: 54px;
+    background-color: #d9d9d90f;
+    border-radius: 37px;
+    border: 1px solid;
+    border-color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+form{
+    text-align: left;
+    margin-top: 35px;
+}
+
+.three-equal{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 75px;
+}
+
+.col-3e{
+    padding: 65px;
+    position: relative;
+}
+
+.col-3e img{
+    position: absolute;
+    top: -25px;
+    left: 15px;
+    z-index: -2;
+}
+
+.col-3e p{
+font-size: 24px;
+font-weight: 500;
+line-height: 109%;
+letter-spacing: -0.264px;
+}
+
+.col-3e p span{
+font-size: 37px;
+font-weight: 600;
+line-height: 109%;
+letter-spacing: -0.407px;
+}
+
+.subheading{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 109%;
+    letter-spacing: -0.264px;
+    color: white;
+    }
+    
+    .heading{
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 109%;
+    letter-spacing: -0.407px;
+    color: white;
+    }
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 15px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.two-equal{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-bottom: 100px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.col-2e p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 109%;
+    letter-spacing: -0.264px;
+    }
+    
+    .col-2e p span{
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 109%;
+    letter-spacing: -0.407px;
+    }
+
+
+    .raffle{
+        height: 147px;
+        background-color: rgba(217, 217, 217, 0.06);
+        border-radius: 8px;
+        border-width: 1px;
+        border-style: solid;
+        border-image: initial;
+        border-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .btn-div{
+        padding-top: 60px;
+        padding-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gradient-btn{
+        background:  linear-gradient(90deg, #9962B9 0%, #6F3ACB 50%, #6A00FF 100%);
+        color: white;
+        padding: 20px 80px;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 35px;
+    }
+    
+
+    .hs-button{
+        background:  linear-gradient(90deg, #9962B9 0%, #6F3ACB 50%, #6A00FF 100%);
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 35px;
+        border: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 35px;
+        color: #fff;
+    }
+
+    @media (max-width: 1118px) {
+        .three-equal{
+            justify-content: center;
+        }
+        .two-equal{
+            justify-content: center;
+        }
+        .col-2e{
+            padding: 20px 35px;
+        }
+        .h2w-item{
+            flex: 1 1 200px; /*  No stretching: */
+        }
+        .h2p-item{
+            flex: 1 1 500px; /*  No stretching: */
+        }
+    }
